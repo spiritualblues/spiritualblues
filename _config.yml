@@ -22,7 +22,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 twitter_username: spiritualblues
 github_username: spiritualblues
 url: "https://spi.blue"
-baseurl: "/blog"
+baseurl: ""
 minimal_mistakes_skin: default
 search: true
 
@@ -66,15 +66,15 @@ author:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://spi.blue"
- #   - label: "Twitter"
- #     icon: "fab fa-fw fa-twitter-square"
-  #    url: "https://twitter.com/spiritualblues"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/spiritualblues"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/spiritualblues"
-#    - label: "Instagram"
-#     icon: "fab fa-fw fa-instagram"
-#    url: "https://instagram.com/"
+    - label: "Instagram"
+     icon: "fab fa-fw fa-instagram"
+    url: "https://instagram.com/"
 
 footer:
   links:
