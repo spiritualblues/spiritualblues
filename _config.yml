@@ -22,7 +22,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 twitter_username: spiritualblues
 github_username: spiritualblues
 url: "https://spi.blue"
-baseurl: "/"
+baseurl: ""
 minimal_mistakes_skin: default
 search: true
 
