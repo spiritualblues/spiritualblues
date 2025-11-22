@@ -60,10 +60,10 @@ plugins:
   - jekyll-include-cache
   - jekyll-seo-tag
 author:
-  name   : "spiritual blues"
-  bio    : "perpetually rooting for the underdog"
+  name: "spiritual blues"
+  bio: "perpetually rooting for the underdog"
   links:
-   - label: "BlueSky"
+    - label: "BlueSky"
       icon: "fas fa-fw fa-bluesky-square"
       url: "https://bsky.app/profile/spi.blue"
     - label: "Website"
@@ -79,12 +79,13 @@ author:
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/"
 
+
 footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-    url: "https://twitter.com/spiritualblues"
-        - label: "BlueSky"
+      url: "https://twitter.com/spiritualblues"
+    - label: "BlueSky"
       icon: "fab fa-fw fa-bluesky-square"
     url: "https://bsky.app/profile/spi.blue"
     - label: "GitHub"
@@ -101,7 +102,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: false
+      author_profile: true
       read_time: true
       comments: true
       share: false
@@ -112,7 +113,7 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: false
+      author_profile: true
 
 
 tag_archive:
