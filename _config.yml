@@ -21,7 +21,7 @@ twitter_username: spiritualblues
 github_username: spiritualblues
 url: "https://spi.blue"
 baseurl: ""
-minimal_mistakes_skin: air
+minimal_mistakes_skin: default
 search: true
 
 timezone: "America/New_York"
@@ -43,6 +43,7 @@ plugins:
   - jemoji
   - jekyll-include-cache
   - jekyll-seo-tag
+
 
 author:
   name: "spiritual blues"
