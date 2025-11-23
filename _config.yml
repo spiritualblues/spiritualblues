@@ -82,18 +82,18 @@ author:
 
 footer:
   links:
-    - label: "Twitter"
+ #   - label: "Twitter"
  #     icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/spiritualblues"
-    - label: "BlueSky"
+ #     url: "https://twitter.com/spiritualblues"
+#   - label: "BlueSky"
  #     icon: "fab fa-brands fa-square-bluesky"
-      url: "https://bsky.app/profile/spi.blue"
-    - label: "GitHub"
+  #    url: "https://bsky.app/profile/spi.blue"
+  #  - label: "GitHub"
  #     icon: "fab fa-fw fa-github"
-      url: "https://github.com/spiritualblues"
-    - label: "Instagram"
+  #    url: "https://github.com/spiritualblues"
+  #  - label: "Instagram"
  #     icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+  #    url: "https://instagram.com/"
 
 
 defaults:
