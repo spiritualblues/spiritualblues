@@ -1,0 +1,29 @@
+{%- comment -%}
+  Minimal override of Minimal Mistakes' author-profile include.
+  This keeps avatar, name and bio, but removes the follow/social links.
+  Save as: _includes/author-profile.html
+{%- endcomment -%}
+
+{%- assign author = page.author | default: site.author -%}
+
+<aside class="author-profile">
+  <div class="author-profile-inner">
+    {% if author.avatar %}
+      <div class="author-avatar">
+        <img src="{{ author.avatar }}" alt="{{ author.name | escape }}" />
+      </div>
+    {% endif %}
+
+    <div class="author-meta">
+      <h3 class="author-name">{{ author.name }}</h3>
+
+      {% if author.bio %}
+        <div class="author-bio">
+          {{ author.bio }}
+        </div>
+      {% endif %}
+
+      {# follow links intentionally removed #}
+    </div>
+  </div>
+</aside>
