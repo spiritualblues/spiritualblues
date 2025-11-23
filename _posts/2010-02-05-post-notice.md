@@ -3,8 +3,7 @@ title: "Post: Notice"
 categories:
   - Jekyll
 tags:
-  - Post Formats
-  - notice
+  - Jekyll
 ---
 
 A notice displays information that explains nearby content. Often used to call attention to a particular detail.
