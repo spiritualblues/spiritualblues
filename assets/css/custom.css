@@ -1,0 +1,30 @@
+/* assets/css/custom.css
+   Hides the "Recent Posts" heading, the divider line, and tightens top spacing.
+*/
+
+ /* Hide common "collection" title used by minimal-mistakes home/archive lists */
+.collection-title,
+.archive-title,
+.home .collection-title {
+  display: none !important;
+}
+
+/* Remove the horizontal divider that often follows that title */
+.collection .section-divider,
+.home .section-divider,
+.home hr {
+  display: none !important;
+}
+
+/* Tighten up the spacing above the posts list */
+.posts,
+.collection,
+.home .collection {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+/* Small safety: if the theme uses author area spacing, reduce it */
+.author-profile + .collection {
+  margin-top: 0 !important;
+}
