@@ -15,10 +15,8 @@
 # in the templates via {{ site.myvariable }}.
 title: spiritual blues
 email: spiri@mail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: >-
+  Write an awesome description for your new site here...
 twitter_username: spiritualblues
 github_username: spiritualblues
 url: "https://spi.blue"
@@ -26,31 +24,17 @@ baseurl: ""
 minimal_mistakes_skin: air
 search: true
 
-# Build settings
+timezone: "America/New_York"
+
 markdown: kramdown
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-# Outputting
-permalink: /:title/
-paginate: 5 # amount of posts to show
+permalink: /:year/:month/:day/:title/
+paginate: 5
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-
-# Plugins (previously gems:)
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
@@ -59,8 +43,9 @@ plugins:
   - jemoji
   - jekyll-include-cache
   - jekyll-seo-tag
- author:
-#  name: "spiritual blues"
+
+author:
+  name: "spiritual blues"
   bio: "perpetually rooting for the underdog"
 links:
   - label: "BlueSky"
