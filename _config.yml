@@ -62,7 +62,7 @@ plugins:
 # author:
 #  name: "spiritual blues"
   bio: "perpetually rooting for the underdog"
-  links:
+links:
   - label: "BlueSky"
     # icon: "fas fa-brands fa-square-bluesky"
     url: "https://bsky.app/profile/spi.blue"
