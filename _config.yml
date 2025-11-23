@@ -64,7 +64,7 @@ author:
   bio: "perpetually rooting for the underdog"
   links:
     - label: "BlueSky"
-      icon: "fas fa-fw fa-bluesky-square"
+      icon: "fas fa-brands fa-bluesky-square"
       url: "https://bsky.app/profile/spi.blue"
     - label: "Website"
       icon: "fas fa-fw fa-link"
