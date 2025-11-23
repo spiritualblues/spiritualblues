@@ -3,8 +3,7 @@ title: "Post: Quote"
 categories:
   - Jekyll
 tags:
-  - Post Formats
-  - quote
+  - Jekyll
 ---
 
 > Only one thing is impossible for God: To find any sense in any copyright law on the planet.
