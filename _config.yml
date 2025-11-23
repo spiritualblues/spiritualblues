@@ -44,10 +44,9 @@ plugins:
   - jekyll-include-cache
   - jekyll-seo-tag
 
-
-author:
-  name: "spiritual blues"
-  bio: "perpetually rooting for the underdog"
+# author:
+ # name: "spiritual blues"
+ # bio: "perpetually rooting for the underdog"
 
 footer:
   links:
