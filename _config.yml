@@ -45,7 +45,7 @@ plugins:
   - jekyll-seo-tag
 
 author:
- # name: "spiritual blues"
+ name: "spiritual blues"
  bio: "perpetually rooting for the underdog"
 
 footer:
