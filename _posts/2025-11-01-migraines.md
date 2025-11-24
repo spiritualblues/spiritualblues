@@ -1,5 +1,5 @@
 ---
-title: “Chronic Disease Burden of Daily Migraines”
+title: “Chronic Disease Burden of Daily Migraines ”
 tags:
   - personal
 canonical_url: "https://www.bansode.com/blog/migraines"
