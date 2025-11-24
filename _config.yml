@@ -15,42 +15,26 @@
 # in the templates via {{ site.myvariable }}.
 title: spiritual blues
 email: spiri@mail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: >-
+  Write an awesome description for your new site here...
 twitter_username: spiritualblues
 github_username: spiritualblues
 url: "https://spi.blue"
-baseurl: "/blog"
-minimal_mistakes_skin: default
+baseurl: ""
+minimal_mistakes_skin: air
 search: true
 
-# Build settings
+timezone: "America/New_York"
+
 markdown: kramdown
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-# Outputting
 permalink: /:title/
-paginate: 5 # amount of posts to show
+paginate: 5
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-
-# Plugins (previously gems:)
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
@@ -59,34 +43,26 @@ plugins:
   - jemoji
   - jekyll-include-cache
   - jekyll-seo-tag
+
 author:
-  name   : "spi.blue/blog"
-  bio    : "perpetually rooting for the underdog"
-  links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://spi.blue"
- #   - label: "Twitter"
- #     icon: "fab fa-fw fa-twitter-square"
-  #    url: "https://twitter.com/spiritualblues"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/spiritualblues"
-#    - label: "Instagram"
-#     icon: "fab fa-fw fa-instagram"
-#    url: "https://instagram.com/"
+ # name: "spiritual blues"
+ bio: "perpetually rooting for the underdog"
 
 footer:
   links:
-#    - label: "Twitter"
+ #   - label: "Twitter"
  #     icon: "fab fa-fw fa-twitter-square"
-#    url: "https://twitter.com/spiritualblues"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/spiritualblues"
- #   - label: "Instagram"
+ #     url: "https://twitter.com/spiritualblues"
+#   - label: "BlueSky"
+ #     icon: "fab fa-brands fa-square-bluesky"
+  #    url: "https://bsky.app/profile/spi.blue"
+  #  - label: "GitHub"
+ #     icon: "fab fa-fw fa-github"
+  #    url: "https://github.com/spiritualblues"
+  #  - label: "Instagram"
  #     icon: "fab fa-fw fa-instagram"
- #     url: "https://instagram.com/"
+  #    url: "https://instagram.com/"
+
 
 defaults:
   # _posts
@@ -97,7 +73,7 @@ defaults:
       layout: single
       author_profile: false
       read_time: true
-      comments: true
+      comments: false
       share: false
       related: true
   # _pages
@@ -107,6 +83,22 @@ defaults:
     values:
       layout: single
       author_profile: false
+
+  - scope:
+      path: "" # applies to all files
+      type: "pages"
+    values:
+      classes: wide
+  - scope:
+      path: "" # applies to all posts
+      type: "posts"
+    values:
+      classes: wide
+  - scope:
+      path: "" # applies to any relevant collection, e.g., "docs"
+      type: "docs"
+    values:
+      classes: wide
 
 
 tag_archive:

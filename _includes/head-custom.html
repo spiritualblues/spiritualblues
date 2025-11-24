@@ -1,0 +1,7 @@
+<link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+
+{% if page.canonical_url %}
+  <link rel="canonical" href="{{ page.canonical_url }}">
+{% else %}
+  <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}">
+{% endif %}

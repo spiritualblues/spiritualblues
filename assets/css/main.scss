@@ -1,12 +1,4 @@
 /* Hide category UI everywhere */
-.page__taxonomy .taxonomy__categories,
-.page__meta .taxonomy__categories {
-  display: none;
-}
----
-# front matter (keep this)
----
-
 @import "minimal-mistakes";
 
 /* Hide category UI everywhere */
@@ -15,7 +7,9 @@
   display: none;
 }
 
-/* Monospace override – add this BELOW your existing code */
-body {
-  font-family: "Fira Code", "JetBrains Mono", "Source Code Pro", monospace;
+/* Hide the "Follow" button */
+.btn--follow,
+.author__follow,
+.btn.follow {
+  display: none !important;
 }
