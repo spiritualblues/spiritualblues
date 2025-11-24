@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: spiritual blues
+title: spi.blue
 email: spiri@mail.com
 description: >-
   Write an awesome description for your new site here...
@@ -21,7 +21,8 @@ twitter_username: spiritualblues
 github_username: spiritualblues
 url: "https://spi.blue"
 baseurl: ""
-minimal_mistakes_skin: air
+minimal_mistakes_skin: mint # "default" "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
 search: true
 
 timezone: "America/New_York"
