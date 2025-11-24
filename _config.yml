@@ -84,6 +84,22 @@ defaults:
       layout: single
       author_profile: false
 
+  - scope:
+      path: "" # applies to all files
+      type: "pages"
+    values:
+      classes: wide
+  - scope:
+      path: "" # applies to all posts
+      type: "posts"
+    values:
+      classes: wide
+  - scope:
+      path: "" # applies to any relevant collection, e.g., "docs"
+      type: "docs"
+    values:
+      classes: wide
+
 
 tag_archive:
   type: liquid
