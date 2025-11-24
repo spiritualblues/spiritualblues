@@ -9,8 +9,7 @@
 title: \'93Time for change\'94\
 tags:\
   - personal\
-\
----\
+\'97\
 I am considering a transition from my current job to a new position that is radically different. This change is motivated partly by health reasons and partly by personal considerations. \
 \
 I have three options in front of me, each distinct from my current role and from one another. When I think about how I might grow in this new role over the next three years, the differences become even more pronounced.\
