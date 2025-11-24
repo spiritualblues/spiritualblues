@@ -45,11 +45,36 @@ plugins:
   - jekyll-seo-tag
 
 author:
- name: "spiritual blues"
- bio: "perpetually rooting for the underdog"
+  name: "spiritual blues"
+  bio: "perpetually rooting for the underdog"
+  location: "Florida"
+  email: "spiri@mail.com"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:spiri@mail.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://medium.com/@spiritualblues"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/spiritualblues"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      url: "https://facebook.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/spiritualblues"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/spiritualblues"
 
 footer:
   links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:spiri@mail.com"
+
  #   - label: "Twitter"
  #     icon: "fab fa-fw fa-twitter-square"
  #     url: "https://twitter.com/spiritualblues"
