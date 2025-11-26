@@ -74,7 +74,7 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/spiritualblues"
-          - label: "Email"
+    - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:spiri@mail.com"
   #  - label: "Instagram"
