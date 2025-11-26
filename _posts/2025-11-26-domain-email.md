@@ -1,5 +1,5 @@
 ---
-title: “Cheapest ways to get domain email”
+title: "Cheapest ways to get domain email"
 tags:
   - tech
 canonical_url: "https://www.bansode.com/blog/domain-email"
