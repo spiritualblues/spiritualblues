@@ -21,7 +21,7 @@ twitter_username: spiritualblues
 github_username: spiritualblues
 url: "https://spi.blue"
 baseurl: ""
-minimal_mistakes_skin: neon # "default" "air", "aqua", "contrast", "dark", "dirt", "neon", "NO mint", " NO plum", "sunrise"
+minimal_mistakes_skin: aqua # "default" "air", "aqua", "contrast", "dark", "dirt", "neon", "NO mint", " NO plum", "sunrise"
 
 search: true
 
