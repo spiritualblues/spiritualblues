@@ -8,7 +8,7 @@ canonical_url: "https://www.bansode.com/blog/domain-email"
 - **Zoho Mail free plan** – Hosts one domain for free for up to 5 users, webmail-only, 5 GB per user; ideal for a solo or tiny team wanting a true domain inbox with no extra frills. You can later upgrade to their low-cost paid tiers with IMAP/ActiveSync and more storage.
 - **iCloud+ custom domain** – Any paid iCloud+ plan (from about 0.99/month in the US) lets you attach up to five custom domains to iCloud Mail and share them with a family group. This is attractive if you already pay for iCloud storage and like Apple’s privacy posture and long-term stability.
 - **MXroute (especially Black Friday)** – Budget host oriented around lots of domains/accounts for one low price; typical promos are around 10–15 USD for three years (e.g., 10 GB, unlimited domains/accounts). They also run “lifetime” deals (for example, about 75 USD one-time for 5 GB with unlimited domains/accounts), which is compelling if you are comfortable with a smaller provider’s risk profile.
-- 
+
 
 ![](https://images.unsplash.com/photo-1563203369-26f2e4a5ccf7?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb)
 
