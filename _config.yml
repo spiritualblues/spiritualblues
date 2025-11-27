@@ -48,7 +48,7 @@ plugins:
 author:
   name: "spiritual blues"
   bio: "perpetually rooting for the underdog"
-  location: "Florida"
+#  location: "Florida"
   email: "spiri@mail.com"
   links:
   # - label: "Email"
